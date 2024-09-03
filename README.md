@@ -1,3 +1,27 @@
+# Neural Network from Scratch
+  
+## Cloned from: Neural Network From Scratch - by [Independent Code (Omar Aflak)](github.com/TheIndependentCode)
+  
+Modified by turning network (`network.py`) into an object
+  
+## How to build neural network
+- a `layer` is defined as a base class with `forward` and `backward` propagation methods
+- `activation` and `dense` classes inherit from `layer` class
+- a `network` class is instantiated
+- a `neural net` is formed by adding layers (i.e., `dense` and `activation` instances) to the instantiated `network` 
+- see `mnist.py` for example 
+  
+   
+## Changes from original
+- changed mnist.py to work with tensorflow on macos/metal
+- some activations converted to lambdas
+- converted functional flow into object based model
+  
+
+  
+# ----- ORIGINAL README FOLLOWS -----
+  
+  
 # Neural Network From Scratch
 
 This code is part of my video series on YouTube: [Neural Network from Scratch | Mathematics & Python Code](https://youtube.com/playlist?list=PLQ4osgQ7WN6PGnvt6tzLAVAEMsL3LBqpm).
